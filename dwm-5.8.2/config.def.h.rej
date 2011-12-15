@@ -1,0 +1,8 @@
+--- config.def.h
++++ config.def.h
+@@ -34,5 +33,3 @@
+- 	{ "[@]",      spiral },
+- 	{ "[\\]",      dwindle },
+ };
+ 
+ /* key definitions */
