@@ -18,13 +18,11 @@ static const char *tags[] = { "work1", "work2", "web", "email", "misc", "work3" 
 
 static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Thunderbird",  NULL,       NULL,       1 << 3,       False,       -1 },
-	{ "www.gmail.com",  NULL,       NULL,       1 << 3,       False,       -1 },
-	{ "Chromium",  NULL,       NULL,       1 << 2,       False,       -1 },
+	{ "Chromium-browser",  NULL,       NULL,       1 << 2,       False,       -1 },
 	{ "Rhythmbox",  NULL,       NULL,       1 << 4,       False,       -1 },
 	{ "Anki",  NULL,       NULL,       1 << 4,       False,       -1 },
 	{ "Mendeleydesktop",  NULL,       NULL,       1 << 5,       False,       -1 },
-	{ "Lyx", NULL, NULL, 1 << 0, False, -1},
+	{ "www.gmail.com",  NULL,       NULL,       1 << 3,       False,       -1 },
 };
 
 /* layout(s) */
